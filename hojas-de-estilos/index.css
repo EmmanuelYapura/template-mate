@@ -141,3 +141,21 @@ a{
     outline: none;
     letter-spacing: 2px;
 }
+
+/* Estilos del footer */
+.contenedor-footer{
+    width: 100%;
+    height: 80px;
+    margin-top: 80px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.texto-footer{
+    padding-top: 30px;
+}
+
+hr{
+    margin: 0 auto;
+    width: 70%;
+}
