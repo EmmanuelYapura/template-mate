@@ -47,3 +47,31 @@ a{
     vertical-align: middle;
     max-width: 100%;
 }
+
+/* Estilos seccion informativa */
+.contenedor-seccion{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-seccion img, .contenedor-textos{
+    width: 600px;
+    height: 750px;
+}
+
+.texto-padding-right{
+    padding: 60px 15px 0 30px;
+}
+
+.texto-centrado{
+    text-align: center;
+}
+
+.contenedor-textos h1{
+    margin-bottom: 90px;
+}
+
+.contenedor-textos h3{
+    margin: 30px 0 30px 0;
+}
