@@ -33,3 +33,17 @@ h1, h2, h3, h4, h5, h6 {
 a{
     font-size: 20px;
 }
+
+/* Estilos header */
+.encabezado {
+    margin: 0 auto;
+    max-width: 1600px;
+    min-width: 500px;
+}
+
+.encabezado img {
+    width: 1500px;
+    height: 850px;
+    vertical-align: middle;
+    max-width: 100%;
+}
