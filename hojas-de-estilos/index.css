@@ -6,3 +6,30 @@
 h1, h2, h3, h4, h5, h6 {
   letter-spacing: 6px;
 }
+
+/* Estilos barra nav */
+.barra-fija {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+}
+
+.contenedor-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+    padding: 5px;
+}
+
+.link-principal {
+    margin-left: 20px;
+}
+
+.contenedor-links-secciones a {
+    margin-right: 20px;
+}
+
+a{
+    font-size: 20px;
+}
