@@ -99,3 +99,45 @@ a{
     color: gray;
     opacity: 0.8;
 }
+
+/* Estilos seccion contacto */
+.contenedor-contacto{
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    width: 1200px;
+}
+
+.texto-ubicacion{
+    color: darkgreen;
+    margin: 15px 0 15px 0;
+}
+
+#formulario{
+    margin-top: 10px;
+}
+
+.campos{
+    border: none;
+    border-bottom: 1px solid #3a3a3a;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    outline: none;
+    padding: 0px 0px 8px 8px;
+    width: 80%;
+}
+
+.boton-envio{
+    width: 150px;
+    padding: 7px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: #3a3a3a;
+    cursor: pointer;
+    outline: none;
+    letter-spacing: 2px;
+}
